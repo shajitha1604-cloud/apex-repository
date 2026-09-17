@@ -1,2 +1,0 @@
-# apex-repository
-python training
