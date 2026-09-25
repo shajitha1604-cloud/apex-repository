@@ -1,0 +1,169 @@
+count=0
+while(count<9):
+  print('the count is:',count)
+  count=count+1
+  print("Good bye!")
+
+count=0
+while count<7:
+  print(count,"is less than 7")
+  count=count+1
+else:
+  print("Loop End")
+
+#For loop 
+for i in range(0,30,3):
+  print(i)
+
+#Loop control statement
+#Break 
+for i in range(1,6):
+  if i==3:
+     break
+  print(i)
+
+#continue statement 
+for i in range(1,6):
+  if i==3:
+     continue
+  print(i)
+
+OUTPUT
+Good bye!
+the count is: 5
+Good bye!
+the count is: 6
+Good bye!
+the count is: 7
+Good bye!
+the count is: 8
+Good bye!
+0 is less than 7
+1 is less than 7
+2 is less than 7
+3 is less than 7
+4 is less than 7
+5 is less than 7
+6 is less than 7
+Loop End
+0
+3
+6
+9
+12
+15
+18
+21
+24
+27
+1
+2
+1
+2
+4
+5
+
+#conditional statements 
+#if statement
+a=33
+b=200
+
+if b>a:
+  print("b is greater than a")
+
+#else
+a=200
+b=33
+if b>a:
+  print("b is greater than a")
+else:
+  print("b is not greater than a")
+
+#elif
+a=200
+b=20
+if b>a:
+  print("b is greater than a")
+elif a==b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")
+
+#nested if ststement
+var=185
+if var<200:
+  print("Expression value is less thsn 200")
+  if(var<160 and var<170):
+    print("which is greater than 150 less tah 170")
+  elif(var==100 or var>180):
+    print("which is equal to 100 or greater than 180")
+  elif var==50:
+    print("which is 50")
+  elif var<50:
+    print("Expression value is less than 50")
+else:
+    print("Could not find true expression")
+print("Good bye!")
+
+OUTPUT
+b is greater than a
+b is not greater than a
+a is greater than b
+Expression value is less thsn 200
+which is equal to 100 or greater than 180
+Good bye!
+
+#OLD STRING FORMATE
+name="john"
+print("Hello,%s!"%name)
+
+name="john"
+age=23
+print("%s is %d years old."%(name,age))
+
+#New string format
+name="john"
+age=23
+print("My name is {} and i am {} years old.".format(name,age))
+
+OUTPUT
+Hello,john!
+john is 23 years old.
+My name is john and i am 23 years old.
+
+#PASS STATEMENT 
+for i in range(1,4):
+ pass 
+print("Loop conpleted")
+
+for i in range(1,4):
+  print("Loop completed")
+
+OUTPUT
+Loop conpleted
+Loop completed
+Loop completed
+Loop completed
+
+num1=input("Enter first number:")
+num2=input("Enter second number:")
+
+sum=float(num1)+float(num2)
+min=float(num1)-float(num2)
+mul=float(num1)*float(num2)
+div=float(num1)/float(num2)
+
+print('The sum of {0} and {1} is {2}'.format(num1,num2,sum))
+print('the subtraction of {0} and {1} is {2}'.format(num1,num2,min))
+print('the multiplication of {0} and {1} is {2}'.format(num1,num2,mul))
+print('the division of {0} and {1} is {2}'.format(num1,num2,div))
+
+OUTPUT
+Enter first number:20
+Enter second number:40
+The sum of 20 and 40 is 60.0
+the subtraction of 20 and 40 is -20.0
+the multiplication of 20 and 40 is 800.0
+the division of 20 and 40 is 0.5
+
+
